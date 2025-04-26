@@ -1,0 +1,19 @@
+<h1 class="text-center my-4">Categories</h1>
+
+<div class="container">
+  <div class="row">
+    @for (category of categories; track $index) {
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img [src]="category.image" class="card-img-top" alt="Category Image" />
+          <div class="card-body">
+            <h5 class="card-title text-center">{{ category.name }}</h5>
+            @for (price of category.price; track $index) {
+              <p class="card-text text-muted">Price: {{ price }}</p>
+            }
+          </div>
+        </div>
+      </div>
+    }
+  </div>
+</div>

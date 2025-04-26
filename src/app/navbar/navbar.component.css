@@ -1,0 +1,24 @@
+nav {
+  display: flex;
+  justify-content: space-between; 
+  background-color: lightblue;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  width: 60px; 
+  height: auto;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px; 
+}
+
+.nav-links a {
+  color: rgb(169, 58, 161);
+  font-size: 20px;
+  text-decoration: solid underline;
+  font-weight: bold;
+}
