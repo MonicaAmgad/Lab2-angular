@@ -1,6 +1,11 @@
+
 export interface ProductInterface {
-    image: string;
-    name: string;
-    price: number;
-    onSale: boolean;
-}
+    id: number
+    title: string
+    price: number
+    description: string
+    category: string
+    image: string
+    priceFormatted?: string; 
+
+  }
