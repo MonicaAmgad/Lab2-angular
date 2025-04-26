@@ -6,7 +6,7 @@ import { CategoryInterface } from '../category-interface';
   templateUrl: './categories.component.html',
   styleUrl: './categories.component.css'
 })
-export class CategoriesComponent {
+export class CategoriesComponent { 
   categories: CategoryInterface[] = [
     {image: "/foundations.jpeg", price: [1000,2000,3000], name: "Foundations"},
     {image: "/loose.jpeg", price: [1000,2000,3000], name: "Loose Powders"},
